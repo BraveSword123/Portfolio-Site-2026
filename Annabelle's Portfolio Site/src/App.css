@@ -1,3 +1,15 @@
+body{
+  background-image: url("../src/Images/Background_Img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: center; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; 
+}
+
 main{
   display: flex; 
   flex-direction: column; 
@@ -9,6 +21,13 @@ main{
 img{
   height: 100px; 
 }
+
+figcaption {
+  color: white; 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 /* .counter {
   font-size: 16px;
   padding: 5px 10px;

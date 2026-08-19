@@ -1,5 +1,5 @@
 import About_Me_Icon from "../src/Images/About_Me_Icon.png"; 
-import Project_Icon from "../src/Images/Project_Icon.png"
+import Project_Icon from "../src/Images/Project_Icon.png"; 
 import Work_Exp_Icon from "../src/Images/Work_Exp_Icon.png"; 
 import './App.css'
 
