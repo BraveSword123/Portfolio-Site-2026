@@ -6,20 +6,25 @@ import './App.css'
 function App() {
 
   return (
-    <main>
-      <figure id="about_me_container">
-        <img src={About_Me_Icon}/>
-        <figcaption>About Me</figcaption>
-      </figure>
-        <figure id="project_icon_container">
-        <img src={Project_Icon} id="project_icon"/> 
-        <figcaption>Projects</figcaption>
-      </figure>
-      <figure>
-        <img src={Work_Exp_Icon}/>
-        <figcaption>Work <br/> Experience</figcaption>
-      </figure>
-    </main>
+    <>
+      <main>
+        <figure id="about_me_container">
+          <img src={About_Me_Icon}/>
+          <figcaption>About Me</figcaption>
+        </figure>
+          <figure id="project_icon_container">
+          <img src={Project_Icon} id="project_icon"/> 
+          <figcaption>Projects</figcaption>
+        </figure>
+        <figure>
+          <img src={Work_Exp_Icon}/>
+          <figcaption>Work <br/> Experience</figcaption>
+        </figure>
+      </main>
+      <footer>
+
+      </footer>
+    </>
   )
 }
 
