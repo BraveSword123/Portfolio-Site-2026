@@ -9,19 +9,22 @@ function App() {
     <>
       <main>
         <figure id="about_me_container">
-          <img src={About_Me_Icon}/>
+          <img src={About_Me_Icon} className="homescreen_icons"/>
           <figcaption>About Me</figcaption>
         </figure>
           <figure id="project_icon_container">
-          <img src={Project_Icon} id="project_icon"/> 
-          <figcaption>Projects</figcaption>
+          <img src={Project_Icon} id="project_icon_homescreen" className="homescreen_icons"/>
+          <figcaption id="project_homescreen_text">Projects</figcaption>
         </figure>
         <figure>
-          <img src={Work_Exp_Icon}/>
+          <img src={Work_Exp_Icon} className="homescreen_icons"/>
           <figcaption>Work <br/> Experience</figcaption>
         </figure>
       </main>
       <footer>
+          <img src={About_Me_Icon} className="taskbar_icons"/>
+          <img src={Project_Icon} className="taskbar_icons" id="project_icon_taskbar"/>
+          <img src={Work_Exp_Icon} className="taskbar_icons"/>
 
       </footer>
     </>

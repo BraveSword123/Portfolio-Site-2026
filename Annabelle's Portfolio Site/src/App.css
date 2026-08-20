@@ -19,8 +19,12 @@ main{
   gap: 5px; 
 }
 
-img{
+.homescreen_icons{
   height: 100px; 
+}
+
+.taskbar_icons{
+  height: 70px; 
 }
 
 figcaption {
@@ -32,10 +36,16 @@ figcaption {
   font-size: 17px; 
 }
 
- #project_icon{
-  height: 150px; 
-  margin-bottom: -30px; 
+#project_icon_homescreen{
+  height: 80px; 
+  margin-top: 30px; 
+  margin-left: 35px; 
+  /* margin-bottom: -30px; */ 
 } 
+
+#project_homescreen_text{
+  margin-left: 10px; 
+}
 
 #project_icon_container{
   position: relative; 
@@ -47,6 +57,21 @@ figcaption {
   position: relative; 
   right: 10px; 
   margin-bottom: -30px; 
+}
+
+footer{
+  background-image: linear-gradient(to bottom, #E5EDFF, #FDFEFE);
+  border: 2px solid #002E99; 
+  width: 103vw; 
+  height: 80px; 
+  position: relative; 
+  bottom: -100px; 
+}
+
+#project_icon_taskbar{
+  height: 57px;  
+  position: relative; 
+  bottom: 5px; 
 }
 
 /* .counter {
