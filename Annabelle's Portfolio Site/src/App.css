@@ -8,6 +8,7 @@ body{
   height: 100%;
   width: 100%;
   overflow: hidden; 
+  margin-left: -20px; 
 }
 
 main{
@@ -15,7 +16,7 @@ main{
   flex-direction: column; 
   justify-content: start;
   align-items: start; 
-  gap: 2px; 
+  gap: 5px; 
 }
 
 img{
@@ -26,6 +27,26 @@ figcaption {
   color: white; 
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  cursor: pointer; 
+  text-align: center;
+  font-size: 17px; 
+}
+
+ #project_icon{
+  height: 150px; 
+  margin-bottom: -30px; 
+} 
+
+#project_icon_container{
+  position: relative; 
+  right: 17px; 
+  margin-bottom: -10px; 
+}
+
+#about_me_container{
+  position: relative; 
+  right: 10px; 
+  margin-bottom: -30px; 
 }
 
 /* .counter {
