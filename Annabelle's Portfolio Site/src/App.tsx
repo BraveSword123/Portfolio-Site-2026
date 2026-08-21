@@ -1,12 +1,17 @@
 import About_Me_Icon from "../src/Images/About_Me_Icon.png"; 
 import Project_Icon from "../src/Images/Project_Icon.png"; 
 import Work_Exp_Icon from "../src/Images/Work_Exp_Icon.png"; 
-import './App.css'
+import Popup from "./Components/Popup/Popup"; 
+import './App.css'; 
 
 function App() {
 
   return (
     <>
+      <Popup title="About Me" 
+      URL="Learn More about Me: https://www.linkedin.com/in/annabelle-moore-0b6342259/" 
+      left_text="Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis."
+      />
       <main>
         <figure id="about_me_container">
           <img src={About_Me_Icon} className="homescreen_icons"/>

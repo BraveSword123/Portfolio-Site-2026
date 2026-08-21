@@ -1,0 +1,19 @@
+#popup_wrapper{
+    /* background-image: linear-gradient(to top, #F5F5F5, #EBFFFE); */ 
+   /* border-image: linear-gradient(to bottom, #C4D6FF, #002E99); */ 
+    border: 10px solid transparent; 
+    border-top: 70px solid transparent; 
+    border-radius: 5px; 
+    background: 
+        linear-gradient(to top, #F5F5F5, #EBFFFE) padding-box, 
+        linear-gradient(to bottom, #C4D6FF, #002E99) border-box; 
+    position: fixed;
+    inset: 0px;
+    margin: auto;
+    height: 500px; 
+    width: 500px; 
+    z-index: 10; 
+    text-align: center; 
+    font-family: 'Forum', 'Courier New', Courier, monospace;
+}
+
