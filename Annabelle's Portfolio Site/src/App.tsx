@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
-      <Popup title="About Me" 
-      URL="Learn More about Me: https://www.linkedin.com/in/annabelle-moore-0b6342259/" 
+      <Popup title="About Me!" 
+      URL="https://www.linkedin.com/in/annabelle-moore-0b6342259/" 
+      url_header = "Learn more about Me: "
       left_text="Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis."
       />
       <main>
