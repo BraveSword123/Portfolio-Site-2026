@@ -54,6 +54,10 @@ button{
     border-radius: 1px; 
     cursor: pointer;
 }
+
+#popup_container{
+    width: 60vw; 
+}
 /* 
 The height and width of the popup will eventually 
 need to change based on the size of the page, so it can work
