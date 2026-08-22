@@ -1,6 +1,8 @@
 import About_Me_Icon from "../src/Images/About_Me_Icon.png"; 
 import Project_Icon from "../src/Images/Project_Icon.png"; 
-import Work_Exp_Icon from "../src/Images/Work_Exp_Icon.png"; 
+import Work_Exp_Icon from "../src/Images/Work_Exp_Icon.png";
+import Right_Bottom_About_Me from "../src/Images/Right_Bottom_About_Me.png";  
+import Right_Top_About_Me from "../src/Images/Right_Top_About_Me.png"; 
 import Popup from "./Components/Popup/Popup"; 
 import './App.css'; 
 
@@ -12,6 +14,8 @@ function App() {
       URL="https://www.linkedin.com/in/annabelle-moore-0b6342259/" 
       url_header = "Learn more about Me: "
       left_text="Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis."
+      top_img = {Right_Top_About_Me} 
+      bottom_img = {Right_Bottom_About_Me}
       />
       <main>
         <figure id="about_me_container">
